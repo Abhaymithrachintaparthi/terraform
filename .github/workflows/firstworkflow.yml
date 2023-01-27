@@ -47,7 +47,7 @@ jobs:
     - name: unzip
       run: unzip terraform_1.0.7_linux_amd64.zip
     - name: moving
-      run: sudo mv terraform /hello
+      run: sudo mv main /hello
     - name: version 1
       run: terraform --version
     - name: intializing terraform
