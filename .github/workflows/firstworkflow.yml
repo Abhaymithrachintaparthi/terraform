@@ -64,3 +64,5 @@ jobs:
       run: docker ps -q -a
     - name: showing a list of running containers
       run: docker ps
+    - name: Message
+      run: echo "job completed"
